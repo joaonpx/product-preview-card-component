@@ -1,0 +1,140 @@
+/* =========================== general ===================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: hsl(158, 36%, 37%);
+  --secondary-color: hsl(30, 38%, 92%);
+  --headline: hsl(212, 21%, 14%);
+  --paragraph: hsl(228, 12%, 48%);
+  --bg-light: hsl(0, 0%, 100%);
+
+  font-size: 62.5%; /* 10px = 1rem */
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+
+  background: var(--secondary-color);
+
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: 'Fraunces', serif;
+
+  font-size: 2.8rem;
+}
+
+p {
+  color: var(--paragraph);
+
+  font-size: 1.2rem;
+}
+
+/* =========================== card ===================================== */
+
+.card-container {
+  background: var(--bg-light);
+
+  width: 31rem;
+
+  border-radius: 0.8rem;
+}
+
+.card-content {
+  padding: 2rem;
+}
+
+.product-image {
+  width: 31rem;
+
+  border-radius: 0.8rem 0.8rem 0 0;
+}
+
+/* =========================== header ===================================== */
+
+.card-content header {
+  margin-bottom: 4.2rem;
+}
+
+.card-content header h1 {
+  color: var(--headline);
+
+  margin: 0.8rem 0 1.5rem 0;
+}
+
+.card-content header p {
+  line-height: 1.5;
+}
+
+/* =========================== footer ===================================== */
+.card-content footer .product-value {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  margin-bottom: 1.5rem;
+}
+
+.card-content footer h1 {
+  color: var(--primary-color);
+
+  margin-right: 2rem;
+}
+
+.card-content footer p {
+  text-decoration: line-through;
+}
+
+.card-content footer .btn {
+  color: var(--bg-light);
+  background: var(--primary-color);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  padding: 1.5rem;
+
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+
+  border-radius: 0.8rem;
+
+  transition: opacity 200ms;
+}
+
+.card-content footer .btn:hover {
+  opacity: 0.8;
+}
+
+.card-content footer .btn img {
+  margin-right: 1rem;
+}
+
+/* ======================== atribution ==================================== */
+
+.attribution {
+  color: var(--paragraph);
+  font-size: 1.1rem;
+
+  margin-top: 8rem;
+}
+.attribution a {
+  color: var(--primary-color);
+
+  text-decoration: none;
+  font-weight: 700;
+}
