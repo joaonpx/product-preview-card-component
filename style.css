@@ -55,8 +55,13 @@ p {
   padding: 2rem;
 }
 
-.product-image {
+.image-container {
+  background-image: url('./images/image-product-mobile.jpg');
   width: 31rem;
+  height: 21rem;
+
+  background-position: center;
+  background-size: cover;
 
   border-radius: 0.8rem 0.8rem 0 0;
 }
@@ -71,6 +76,8 @@ p {
   color: var(--headline);
 
   margin: 0.8rem 0 1.5rem 0;
+
+  line-height: 1;
 }
 
 .card-content header p {
@@ -78,6 +85,7 @@ p {
 }
 
 /* =========================== footer ===================================== */
+
 .card-content footer .product-value {
   display: flex;
   align-items: center;
@@ -137,4 +145,46 @@ p {
 
   text-decoration: none;
   font-weight: 700;
+}
+
+/* ======================== responsive ==================================== */
+
+@media (min-width: 1024px) {
+  .card-container {
+    width: 55rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+
+  .card-content {
+    padding: 2.8rem;
+  }
+
+  .card-content header {
+    margin-bottom: 2.5rem;
+  }
+
+  .card-content header h1 {
+    margin: 1.5rem 0 2rem 0;
+  }
+
+  .image-container {
+    background-image: url('./images/image-product-desktop.jpg');
+
+    width: 89rem;
+    height: 100%;
+
+    border-radius: 0.8rem 0 0 0.8rem;
+  }
+
+  .card-content header p {
+    font-size: 1.3rem;
+  }
+
+  .card-content footer .product-value {
+    margin-bottom: 2.5rem;
+  }
 }
