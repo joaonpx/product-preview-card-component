@@ -1,9 +1,9 @@
 <h1 align="center">
-  🛍️ <b>Product preview card component solution</b>
+  🛍️ <b>Product preview card component</b>
 </h1>
 
 <p align="center">
-  <img alt="Product preview card component solution" src="./design/desktop-preview.jpg" width="100%">
+  <img alt="Product preview card component" src="./design/desktop-preview.jpg" width="100%">
 </p>
 
 ## 🚀 Built with
@@ -17,7 +17,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## 🔍 Demo
 
-- **[Product preview card component solution](https://product-preview-card-component-npx08.vercel.app/)**
+- **[Product preview card component](https://product-preview-card-component-npx08.vercel.app/)**
 
 ## Author
 
