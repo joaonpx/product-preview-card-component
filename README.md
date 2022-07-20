@@ -17,7 +17,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## 🔍 Demo
 
-- **[Product preview card component](https://product-preview-card-component-npx08.vercel.app/)**
+- **[Product preview card component](https://productpreviewcardcomponentchallenge.vercel.app/)**
 
 ## Author
 
